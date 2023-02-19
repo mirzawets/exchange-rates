@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange rates</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        line-height: 1.5;
+      }
+
+      .currency-box {
+        max-width: 400px;
+      }
+
+      .currency-row {
+        border: 1px solid rgb(175, 175, 175);
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      .currency-row:first-child {
+        border-radius: 6px 6px 0 0;
+      }
+
+      .currency-row:last-child {
+        border-radius: 0 0 6px 6px;
+      }
+
+      .currency-row:not(:last-child) {
+        margin-bottom: -1px;
+      }
+
+      .currency-info {
+        margin-right: 15px;
+        padding: 10px 15px;
+        height: 100%;
+        background-color: #e3e3e3;
+        font-size: 22px;
+      }
+
+      .currency-row span {
+        font-size: 22px;
+        font-weight: 20;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Exchange rates</h2>
+      <div class="currency-box">
+        <div class="currency-row" id="dollar">
+          <div class="currency-info">&#36;</div>
+          <span id="usd">76</span> azn per dollar
+        </div>
+        <div class="currency-row" id="euro">
+          <div class="currency-info">&#8364;</div>
+          <span id="eur">76</span> azn per euro
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
