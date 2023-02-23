@@ -29,14 +29,14 @@
                             <Valute Code="USD">
                     <Nominal>1</Nominal>
                     <Name>1 ABŞ dolları</Name>
-                    <Value>1.7</Value>
+                    <Value>1.70</Value>
                 </Valute>
             
         
                             <Valute Code="EUR">
                     <Nominal>1</Nominal>
                     <Name>1 Avro</Name>
-                    <Value>1.822</Value>
+                    <Value>1.82</Value>
                 </Valute>
             
         
